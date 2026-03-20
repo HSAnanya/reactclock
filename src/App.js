@@ -13,8 +13,7 @@ function App() {
         playsInline
         className="background-video"
       >
-        <source src="/BackG1.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+<source src={process.env.PUBLIC_URL + "/BackG1.mp4"} />        Your browser does not support the video tag.
       </video>
 
       {/* Overlay Content */}
